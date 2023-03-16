@@ -1,6 +1,7 @@
 import React from 'react'
 import { ReactNode } from 'react'
 import { Log } from './types'
+import Image from "./assets/images/gpt.jpg"
 
 export const formatTime = (date: Date) =>
   `${date.getHours().toString().padStart(2, '0')}:${date
@@ -22,7 +23,7 @@ export const convertMessageBreak = (message: string): ReactNode => {
 }
 
 const AI_NAME = 'AQstageIPCC-GPT_BOT'
-const AI_IMAGE_PATH = '/gpt.jpg'
+const AI_IMAGE_PATH = Image
 
 export const createAiLog = (message: string): Log => {
   return {
