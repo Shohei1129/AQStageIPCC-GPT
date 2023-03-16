@@ -34,11 +34,11 @@ const App: FC = () => {
       if (!apiKey) {
         setApiKey(text)
         sayAi(
-          'GPTちゃんです。なんでも聞いてください。\n楽しくお話ししましょう。'
+          'AQstageIPCC-GPT_BOTです。なんでも聞いてください。'
         )
         setMemory(
           (prev) =>
-            `${prev}AI: GPTちゃんです。なんでも聞いてください。\n楽しくお話ししましょう。\n`
+            `${prev}AI: AQstageIPCC-GPT_BOTです。なんでも聞いてください。`
         )
       } else {
         if (!completeText) {

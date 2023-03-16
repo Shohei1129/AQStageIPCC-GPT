@@ -1,3 +1,4 @@
+import React from 'react'
 import { ReactNode } from 'react'
 import { Log } from './types'
 
@@ -20,8 +21,8 @@ export const convertMessageBreak = (message: string): ReactNode => {
   )
 }
 
-const AI_NAME = 'GPTちゃん'
-const AI_IMAGE_PATH = '/gpt-chan.png'
+const AI_NAME = 'AQstageIPCC-GPT_BOT'
+const AI_IMAGE_PATH = '/gpt.jpg'
 
 export const createAiLog = (message: string): Log => {
   return {

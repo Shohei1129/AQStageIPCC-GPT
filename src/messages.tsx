@@ -1,3 +1,4 @@
+import React from 'react'
 import { FC } from 'react'
 import { MyMessage } from './my-message'
 import { OtherMessage } from './other-message'
